@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: "Poppins", serif;    
+    text-align: center;
+    color: #fff;
+    background-image: url(Assets/FUNDO\ SITE.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img{
+    width: 300px;
+    height: auto;    
+    margin-top: 80px;
+    
+}
+
+
+.second-step{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(88, 140, 180);
+    padding: 1em;
+    border-radius: 10px;
+
+}
+button{
+    background-color:#fff; 
+    color: #2B699A ;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgb(221, 218, 218);
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: steelblue;
+}
+
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+   
+}
+footer{
+    color: #2B699A ;
+    margin-top: auto;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+
+}
