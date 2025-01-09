@@ -28,10 +28,19 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(88, 140, 180);
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 10px;
+    text-align: left;
+    width: 400px;
 
 }
+.second-step h3{
+    text-align: center;    
+    padding-bottom: 18px;
+    font-size: 1.5em;
+    
+}
+
 button{
     background-color:#fff; 
     color: #2B699A ;
@@ -40,6 +49,11 @@ button{
     border-radius: 10px;
     box-shadow: 1px 1px 6px rgb(221, 218, 218);
     cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1em;
+    
+
 
 }
 
@@ -47,13 +61,19 @@ button:hover{
     background-color: steelblue;
 }
 
+label{
+    display: block;
+    margin-bottom: 5px;
+}
 
 input{
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    margin-top: 7px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* border: none;
+    outline: none; */
+    margin-top: 5px;
+    width: 100%;
    
 }
 footer{
